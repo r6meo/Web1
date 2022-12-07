@@ -1,0 +1,24 @@
+/* 
+Question 7: The Universal Selector CSS Reset the margin to 0 if it is written as:
+
+*{
+   margin: 0;
+}
+*/
+
+
+/* Question 13 CSS::
+Create a div with the following dimensions:
+The height should be 300 pixels.
+Margin of 5 pixels all around.
+A red "double" border that is 5 pixels wide.
+Padding should be 5 pixels on the left and right and 10 pixels on the rest.
+ */
+.test {
+   height: 300px;
+   margin: 5px;
+   border: double red;
+   border-width: 5px;
+   padding: 10px, 5px, 10px, 5px
+  }
+  

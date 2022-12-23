@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif, Helvetica;
+  background-image: url(Images/AmerikanskaGymnasietLogo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-attachment: fixed;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #6d84d8;
+}
+
+.active {
+  background-color: rgb(38, 0, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.Logo{
+  height: 48px;
+  width: 48px;
+  float: right;
+  background-color: #6d84d8;
+}
+
+.breakingnews{
+  font-size: 20px;
+  padding:2px;
+  word-spacing: 1px;
+  text-shadow: 1px 2px 1px black;
+  font-weight: bold;
+}
+
+.breakingnewsdiv{
+
+  height: 30px;
+  background-color:yellow;
+  border-top:5px solid #6d84d8;
+  border-bottom:5px solid #6d84d8;
+}
+
+
+.ad{
+  display: inline-block;
+  width: 20%;
+  border: 5px solid black;
+  height:1000px
+}
+
+.divisionarticle1{
+  display: inline-block;
+  width: 55.92%;
+  height: 100%;
+  padding: 0 20px 20px 20px;
+  vertical-align: top;
+  border: 5px solid black;
+  background-color: rgba(166, 184, 255, 0.95);
+}
+
+.ArticleImage{
+  height: 20em;
+  padding: 20px 0 10px 9%;
+  width: 82%;
+  
+}
+
+.article1title{
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+.article{
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.moreinformation{
+  padding: 2px 0 11.5px 0;
+  font-weight:bold;
+  text-align:center
+}
+
+.articlereferral{
+  color:blue;
+}
+
+.articlereferral:hover{
+  color:maroon;
+}
+
+.article2title{
+  text-align: center;
+  padding: 10px 0 0 0;
+  border-top: 5px solid black;
+}

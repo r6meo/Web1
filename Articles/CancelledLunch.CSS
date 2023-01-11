@@ -68,8 +68,8 @@
  .divisiontext {
     border: 5px solid black;
     background-color: rgba(166, 184, 255, 0.95);
-    width: 55%;
-    height:100%;
+    width: 57%;
+    height: fit-content;
     margin:auto;
     display: inline-block;
     vertical-align: top;
